@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        fieldset {
+            padding: 20px;
+            width: 350px;
+            border: black 1px solid;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            padding: 5px;
+            margin-bottom: 10px;
+            background-color: #2958bd;
+            color: white;
+            border: none;
+        }
+
+        label {
+            color: white;
+            font-weight: bold;
+            background: #2958bd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            float: right;
+            padding: 9px 15px;
+            background-color: #2958bd;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 10px;
+        }
